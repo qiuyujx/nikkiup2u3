@@ -41,6 +41,10 @@ var tasksRaw = {
     'g3-5': [-1.27, -1.0, -1.27, 1.0, 1.0],
     'g3-6': [1.07, -0.93, -1.07, 0.93, 0.93],
     'g3-7': [-0.87, 0.6, 0.87, -0.6, 0.6],
+    'g4-1': [-0.87, 1.0, 0.87, 1.0, 0.87],
+    'g4-2': [-0.4, 0.67, 0.4, 0.67, 0.4],
+    'g4-3': [1.0, 1.13, 1.13, 1.0, 1.0]
+    //'g4-4': [-0.87, 0.6, 0.87, -0.6, 0.6],
 }
 
 var extraRaw = {
@@ -593,6 +597,9 @@ var levelBonus = {
     'g3-4': [addBonusInfo('SS', 1, "和风")],
     'g3-6': [addBonusInfo('A', 0.5, "中性风")],
     'g3-7': [addBonusInfo('A', 1, "侠客联盟"), addBonusInfo('S', 0.25, "欧式古典")],
+    'g4-1': [addBonusInfo('A', 0.5, "小动物")],
+    'g4-2': [addBonusInfo('A', 2, "中式现代"), addBonusInfo('A', 1, "中式古典")],
+    'g4-3': [addBonusInfo('C', 1, "运动系")],
     '满天繁星: 喝茶听课': [addBonusInfo('A', 1, "中式古典"), addBonusInfo('A', 1, "中式现代")],
     '满天繁星: 星宿侠女': [addBonusInfo('A', 1, "侠客联盟")],
     '满天繁星: 朱雀翼火蛇': [addBonusInfo('A', 1, "中式古典"), addBonusInfo('A', 1, "中式现代")],
@@ -602,7 +609,7 @@ var levelBonus = {
     '冰雪舞会5': [addBonusInfo('S', 1, "欧式古典")],
     '婚恋奇迹3': [addBonusInfo('A', 1, "晚礼服")],
     '婚恋奇迹4': [addBonusInfo('A', 1, "洛丽塔")],
-    '婚恋奇迹5': [addBonusInfo('A', 1, "中式现代"), addBonusInfo('A', 1, "中式古典")],
+    '婚恋奇迹5': [addBonusInfo('A', 1, "中式现代"), addBonusInfo('A', 1, "中式古典")]
 
 };
 
